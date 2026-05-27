@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 MODEL_NAME = "gemini-3.5-flash"
 
-st.set_page_config(page_title="AI Data Analyst", layout="wide", page_icon="⚡")
+st.set_page_config(page_title="DataSense", layout="wide", page_icon="⚡")
 
 # ── Modern Dark SaaS UI Styling ───────────────────────────────────────────────
 st.markdown("""
@@ -203,7 +203,7 @@ def generate(client, prompt):
 # ── Page header ───────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="header-container">
-    <div class="page-title">AI Data Analyst</div>
+    <div class="page-title">DataSense - AI Data Analyst</div>
     <div class="page-subtitle">Upload your CSV payload. Gemini handles the EDA and statistical synthesis.</div>
 </div>
 """, unsafe_allow_html=True)

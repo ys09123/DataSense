@@ -1,4 +1,4 @@
-# AI Data Analyst ⚡
+#  DataSense - AI Data Analyst ⚡
 
 A sleek, modern Streamlit application that leverages Google Gemini 3.5 Flash to automatically analyze CSV datasets. Upload your data and let the AI generate Python EDA code and synthesize executive-level statistical insights — in seconds.
 
